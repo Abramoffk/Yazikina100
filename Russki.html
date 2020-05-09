@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Yaziki4ege</title>
+<style>
+  body {
+    background: #c7b39b url(https://sun9-33.userapi.com/c857228/v857228232/18572b/CFKmf7gEi3g.jpg); /* Цвет фона и путь к файлу */
+    color: #; /* Цвет текста */
+   }
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; /* Меняется ширина страницы */
+  margin: 0 auto;
+  background: #F0F8FF; /* Меняется задний фон страницы */
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  height: 120px; /* Высота шапки */
+  background-color: #ffffff; /* Фон шапки */
+   margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+  <!--border-radius: 5px; /* Закругляются углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+img{ /* Фоновая картинка в шапке */
+float: left; /* Разрешаем наплывание других элементов на картинку */
+  margin: -40px 0 0 0;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+  margin:0 0 10px 40px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#fff; /* Цвет заголовка */
+}
+.nomer{ /*Подзаголовок (номер телефона)*/
+  position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
+  top:5px; /* Двигается вверх-вниз */
+  left:680px; /* Двигается вправо-влево */
+  font-size: 25px; /* Размер букв подзаголовка */
+  font-style:italic; /* Курсив */
+  font-weight:bold; /* Жирный */
+  color:#464451; /* Цвет букв подзаголовка */
+}
+
+/* Сайдбар (колонка справа) */
+
+#sidebar{ /* Блок сайдбара */
+  background-color: #ffffff; /* Фон блока */
+  width: 180px; /* Ширина блока */
+  padding: 10px; /* Отступ текста от краёв */
+  float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; /* Размещаем слева от текста */
+  margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: 2px; /* Отступ блока статьи от блока подвала */
+  width: 676px; /* Ширина статьи */
+  padding: 10px; /* Отступ текста от краёв блока */
+  background: #ffffff; /* Фон статьи */
+  <!-- border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+/* Подвал */
+
+#footer{ /* Блок подвала */
+  height:20px; /* Высота блока подвала */
+  background-color: #ffffff; /* Фон блока подвала */
+  margin-bottom: 10px; /* Отступ снизу */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+      <h1>rus4ege.ru</h1>
+<!--Фоновая картинка в шапке сайта-->
+     <a href="Mainpage.html"><img src= "https://sun9-69.userapi.com/c858532/v858532928/18640e/ve1qGS6SijM.jpg" width="900" height="100"> <a>
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>Навигация:</h3>
+<!--Картинки маркеров меню (галочки)-->
+        <p><img class="marcer" src="https://emojio.ru/images/apple-b/1f1ec-1f1e7.png" width="10" height="10"><a href="Eng.html">Английский язык<a></p>
+        <p><img class="marcer" src="https://emojio.ru/images/apple-b/1f1f7-1f1fa.png" width="10" height="10"><a href="Russki.html">Русский язык <a></p>
+        <p><img class="marcer" src="https://vk.com/emoji/e/f09f92af_2x.png" width="10" height="10"><a href="testyourself 2.html">Протестируй себя ENG<a></p>
+        <p><img class="marcer" src="https://vk.com/emoji/e/f09f92af_2x.png" width="10" height="10"><a href="testyourself 1.html">Протестируй себя RUS<a> </p>
+        <!--Прямая синяя линия-->
+          <hr width="100" color="#000000" size="4">
+         <h4>Теория по Python:</h4>
+        <p><img class="marcer" src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/man-technologist-light-skin-tone.png" width="10" height="10"><a href="Python.html">Python <a></p>
+        <hr width="100" color="#000000" size="4">
+<!--Общая информация в сайдбаре-->
+      <h3>Mail по вопросам :</h3>
+      <p><a href="https://mail.yandex.ru/" target="_blank">yazykina5@yandex.ru </a></p>
+              <p><img class="marcer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBsDKyFlyTHqhJDpn3QL3lkQX4q9MVZ_Qy8D2nFsVhK5is3AFd&usqp=CAU" width="10" height="10"><a href="Russkidark.html">Тёмная тема <a></p>
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+<!--Заголовок статьи-->
+        <h3>Русский язык ЕГЭ 2020.</h3>
+<!--Текст статьи-->
+<p style="font-family: Tahoma, monospace">Задание 1. Главная информация в тексте. </p>
+         <p><a href="https://vk.com/doc414794633_551632798?hash=b41d9aa4c4bf8aee4d&dl=3093d3987cde9b799c" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 2. Какое из слов должно стоять на месте пропуска.  </p>
+            <p><a href="https://vk.com/doc414794633_551632799?hash=2031ae62452b8ba685&dl=0671f93327049a5f283" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 3. Найдите правильное значение слова. </p>
+            <p><a href="https://vk.com/doc414794633_551632802?hash=7978c25b885d4c57ba&dl=cac5e90110f7f86ab3" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 4. Найдите ошибку в ударении.  </p>
+            <p><a href="https://vk.com/doc414794633_551632797?hash=24276810c69f845359&dl=d68a6fa7e8fda9776a" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 5. Найдите и исправьте лексическую ошибку (паронимы). </p>
+            <p><a href="https://vk.com/doc465547023_549257058?hash=690274094278b56d61&dl=af4a51aec29e6821ed" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 6. Лексические нормы. Исправьте лексическую ошибку.</p>
+            <p><a href="https://vk.com/doc465547023_549257056?hash=3d6c6ea8e570ef7c50&dl=43be83e2644b691c28" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 7. Найдите и исправьте ошибку в форме слова (морфологические нормы).</p>
+            <p><a href="https://vk.com/doc184927607_549536251?hash=ff044cede7614e821b&dl=3eeba2f8d56abb4719" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 8. Установите соответствие между грамматической ошибкой и предложением.</p>
+            <p><a href="https://vk.com/doc184927607_549536252?hash=5cfa14fe3a553362e2&dl=855310e730fc4cf260" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 9. Вставьте пропущенную букву и выпишите (правописание корней: безударные проверяемые, непроверяемые, чередующиеся гласные). </p>
+            <p><a href="https://vk.com/doc184927607_549536253?hash=aa95a443a8858de99c&dl=d67c9cee2aea68157e" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 10. Вставьте пропущенную букву (правописание приставок: изменяемых, неизменяемых, пре- и при-, ы/и после приставок).</p>
+            <p><a href="https://vk.com/doc184927607_549536254?hash=b05d2339f081dae00e&dl=5d3ee7918c50a5ab5f" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 11. Выписать слово (правописание суффиксов различных частей речи, кроме Н/НН). </p>
+            <p><a href="https://vk.com/doc184927607_549536255?hash=8ba5d4058ac15b8f46&dl=44904edd33acb2d1e3" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 12. Выпишите слово (правописание личных окончаний глаголов и суффиксов причастий). </p>
+            <p><a href="https://vk.com/doc184927607_549536256?hash=5c3da5d135037ebe83&dl=7c7a42133df336a9d" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 13. Определить предложение, в котором НЕ пишется слитно( правописание НЕ и НИ). </p>
+            <p><a href="https://vk.com/doc184927607_549536258?hash=88098f2d2cddb1ad25&dl=b82d84c9c57eb391c8" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 14. Слитное, дефисное, раздельное написание слов. </p>
+            <p><a href="https://vk.com/doc184927607_549536261?hash=f03cdf8b2b9d832c3e&dl=dc76f14e3dbf300da3" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 15. Правописание Н/НН в различных частях речи. </p>
+            <p><a href="https://vk.com/doc184927607_549536260?hash=718846951b75356e7e&dl=98774f11a4fbae67d5" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 16. Знаки препинания в ССП и при однородных членах.</p>
+            <p><a href="https://vk.com/doc184927607_549536262?hash=bafcd31d24237af535&dl=3581bc7b9bce3a02f9" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 17. Знаки препинания в предложениях с обособленнымио пределениями,приложениями, обстоятельствами и дополнениями. </p>
+            <p><a href="https://vk.com/doc184927607_549536305?hash=1d9ca3a7f2be2e4a79&dl=fbc825afedbe94782c" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 18. Знаки препинания в предложениях со словами , грамматически не связанными с членами предложения (вводные слова, обращения).</p>
+            <p><a href="https://vk.com/doc184927607_549536306?hash=bfed33a525b7527ecf&dl=1df2a8dbfbadfa5e81" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 19. Знаки препинания в СПП. </p>
+            <p><a href="https://vk.com/doc184927607_549536307?hash=41ce7b89bea6e7a661&dl=d3c182ea89218c527d" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 20. Знаки препинания в предложении с различными видами связи. </p>
+            <p><a href="https://vk.com/doc184927607_549538086?hash=fecb5c32b09b12d4ff&dl=c27945888fab0128a5" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 21. Пунктуационный анализ. </p>
+            <p><a href="https://vk.com/doc184927607_549538087?hash=c9e9014d2b44635afd&dl=99a2675b711b665782" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 22. Какие из высказываний соответствуют содержанию текста? </p>
+            <p><a href="https://vk.com/doc184927607_549538089?hash=a4bd94763be6c5b275&dl=24b208310bcbe41dd6" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 23. Какие из утверждений верные или неверные? Типы речи: описание, повествование, рассуждение, виды связи между предложениями. </p>
+            <p><a href="https://vk.com/doc184927607_549538092?hash=b18dce65f80c333beb&dl=a3cc10b9e2201d15bb" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 24. Найдите слово со значением...(синонимы, антонимы, паронимы, омонимы, фразеологизмы, просторечия, историзмы, неологизмы и т.д.)  </p>
+            <p><a href="https://vk.com/doc184927607_549538093?hash=06eab1c82776f0640b&dl=0f7fc3bf8d1a942b7e" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 25. Найдите предложение, которое связано с предыдущим при помощи (союзов, предлогов, частиц, местоимений, лексических повторов...) </p>
+            <p><a href="https://vk.com/doc184927607_549538094?hash=9056077bca898d2b96&dl=2e7e6d2dcca47d88df" target="_blank"> Теория </a></p>
+<p style="font-family: Tahoma, monospace">Задание 26. Средства выразительности: метафоры, эпитеты, параллелизм и т.д. </p>
+            <p><a href="https://vk.com/doc184927607_549538095?hash=c3613bc879a41dc527&dl=e7ccffa256f19425d3" target="_blank"> Теория </a></p>
+
+    </div>
+<!--Запрет наплывания-->
+  <div class="clear"></div>
+  <!--Подвал-->
+    <div id="footer">
+      <p align="center" style="color:#000000; font-size:15px">
+Копирайта нет. Все для людей. ©2020</p>
+
+<p></p>
+<p></p>
+    </div>
+  </div>
+</body>
+</html>

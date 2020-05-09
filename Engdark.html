@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Yaziki4ege</title>
+<style>
+  body {
+    background: #c7b39b url(https://sun9-33.userapi.com/c857228/v857228232/18572b/CFKmf7gEi3g.jpg); /* Цвет фона и путь к файлу */
+    color: #; /* Цвет текста */
+   }
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; /* Меняется ширина страницы */
+  margin: 0 auto;
+  background: #708090; /* Меняется задний фон страницы */
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  height: 120px; /* Высота шапки */
+  background-color: #A9A9A9; /* Фон шапки */
+   margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+img{ /* Фоновая картинка в шапке */
+float: left; /* Разрешаем наплывание других элементов на картинку */
+  margin: -40px 0 0 0;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+  margin:0 0 10px 40px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#fff; /* Цвет заголовка */
+}
+.nomer{ /*Подзаголовок (номер телефона)*/
+  position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
+  top:5px; /* Двигается вверх-вниз */
+  left:680px; /* Двигается вправо-влево */
+  font-size: 25px; /* Размер букв подзаголовка */
+  font-style:italic; /* Курсив */
+  font-weight:bold; /* Жирный */
+  color:#464451; /* Цвет букв подзаголовка */
+}
+
+/* Сайдбар (колонка справа) */
+
+#sidebar{ /* Блок сайдбара */
+  background-color: #A9A9A9; /* Фон блока */
+  width: 180px; /* Ширина блока */
+  padding: 10px; /* Отступ текста от краёв */
+  float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; /* Размещаем слева от текста */
+  margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: 2px; /* Отступ блока статьи от блока подвала */
+  width: 676px; /* Ширина статьи */
+  padding: 10px; /* Отступ текста от краёв блока */
+  background: #A9A9A9; /* Фон статьи */
+  <!-- border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+/* Подвал */
+
+#footer{ /* Блок подвала */
+  height:20px; /* Высота блока подвала */
+  background-color: #A9A9A9; /* Фон блока подвала */
+  margin-bottom: 10px; /* Отступ снизу */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+
+
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+      <h1>eng4ege.ru</h1>
+<!--Фоновая картинка в шапке сайта-->
+       <a href="Mainpagedark.html"><img src= "https://sun9-69.userapi.com/c858532/v858532928/18640e/ve1qGS6SijM.jpg" width="900" height="100"> <a>
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>Навигация:</h3>
+<!--Картинки маркеров меню (галочки)-->
+        <p><img class="marcer" src="https://emojio.ru/images/apple-b/1f1ec-1f1e7.png" width="10" height="10"><a href="Engdark.html">Английский язык<a></p>
+        <p><img class="marcer" src="https://emojio.ru/images/apple-b/1f1f7-1f1fa.png" width="10" height="10"><a href="Russkidark.html">Русский язык <a></p>
+        <p><img class="marcer" src="https://vk.com/emoji/e/f09f92af_2x.png" width="10" height="10"><a href="testyourself2dark.html">Протестируй себя ENG<a></p>
+        <p><img class="marcer" src="https://vk.com/emoji/e/f09f92af_2x.png" width="10" height="10"><a href="testyourself1dark.html">Протестируй себя RUS<a> </p>
+<!--Прямая черная  линия-->
+          <hr width="100" color="#000000" size="4">
+        <h4>Теория по Python:</h4>
+        <p><img class="marcer" src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/man-technologist-light-skin-tone.png" width="10" height="10"><a href="Python.html">Python <a></p>
+        <hr width="100" color="#000000" size="4">
+        <!--Общая информация в сайдбаре-->
+      <h3>Mail по вопросам :</h3>
+      <p><a href="https://mail.yandex.ru/" target="_blank">yazykina5@yandex.ru </a></p>
+            <p><img class="marcer" src="https://img.icons8.com/all/500/sun.png" width="15" height="15"><a href="Eng.html">Светлая тема<a></p>
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+<!--Заголовок статьи-->
+        <h3 style="font-family: Tahoma, monospace">Английский язык ЕГЭ 2020.</h3>
+<!--Текст статьи-->
+      <h4 style="font-family: Tahoma, monospace">Что представлет собой экзамен? </h4>
+        <p style="font-family: Tahoma, monospace">ЕГЭ по английскому языку 2020 — это выпускной экзамен в школе, который засчитывается в качестве вступительного экзамена в вуз, поэтому так важно сдать его на высокий балл. Пока этот экзамен не является обязательным, но если выпускник собирается поступать в профильный вуз, ему нужно пройти это испытание.</p>
+<p style="font-family: Tahoma, monospace">По структуре и уровню сложности ЕГЭ похож на международный экзамен FCE. Это значит, что для успешной сдачи ученик должен иметь уровень Upper-Intermediate (выше среднего). Это высокая ступень, поэтому мы рекомендуем начинать готовиться к ЕГЭ по английскому уже с 10 класса, тогда за 2 года школьник сможет в нормальном темпе освоить весь необходимый объем материала.</p>
+<p style="font-family: Tahoma, monospace">В принципе, можно подготовиться к сдаче экзамена и за 1 год, но только в том случае, если на момент начала подготовки ученик уже владеет английским на уровне Intermediate (средний). Не знаете, каким уровнем обладает выпускник? Тогда предложите ему пройти наш авторский тест по английскому языку.</p>
+        <p style="font-family: Tahoma, monospace">Как же проходит ЕГЭ по английскому языку в 2020 году? Экзамен состоит из письменной и устной частей, которые проводятся в разные дни. В один день школьники сдают письменную часть, она включает такие разделы: аудирование, чтение, письмо, грамматика и лексика. Всего в этот день выпускнику нужно выполнить 40 заданий за 180 минут. Ученик может получить максимум 20 баллов за каждый из разделов. Таким образом, за этот день можно набрать 80 баллов.</p><p>Вторая часть — устная — проходит в другой день и сдается по желанию. Она длится всего 15 минут и состоит из 4 заданий. В этот день выпускник может заработать еще 20 баллов. Мы настоятельно советуем всем выпускникам обязательно сдавать устную часть: в случае неудачных ответов вы ничего не теряете, а в случае удачных — заработаете дополнительные баллы.</p>
+<p style="font-family: Tahoma, monospace">Таким образом, выпускник на экзамене может набрать максимум 100 баллов. Минимальный балл для сдачи экзамена составляет 22 балла.</p>
+<p style="font-family: Tahoma, monospace">Ниже мы представим таблицу перевода баллов ЕГЭ по английскому в пятибалльную систему..</p>
+<img class="right" src="https://sun9-32.userapi.com/c857432/v857432928/1e087e/_NqrYKG7mW8.jpg" width="300" height="100">
+        <h4 style="font-family: Tahoma, monospace">Теория к заданиям по грамматике.</h4>
+<p>1.<a href="https://vk.com/doc414794633_551628858?hash=b342d7f943bc2847e7&dl=f48eee5f7d9b19e0e5" target="_blank">Conditionals</a></p>
+         <p>2.<a href="https://vk.com/doc414794633_551628860?hash=9328f420c9531f4030&dl=00dc318edef466ba14" target="_blank">Future Perfect</a></p>
+        <p>3.<a href="https://vk.com/doc414794633_551628859?hash=6e370d1939ea999b5e&dl=f746dda5197adee8f9" target="_blank">Future Perfect Continuous</a></p>
+        <p>4.<a href="https://vk.com/doc414794633_551628861?hash=505ef3a51c3f9639f2&dl=c47af0bb29bd3e34f9" target="_blank">Non continuous verbs</a></p>
+        <p>5.<a href="https://vk.com/doc414794633_551628862?hash=487a43aa7930ac27e7&dl=d60064537ff1a893c0" target="_blank">Past Perfect</a></p>
+        <p>6.<a href="https://vk.com/doc414794633_551628864?hash=dd972a5b5dd228ce4e&dl=c3d210941ca68b8325" target="_blank">Prepositional Phrases</a></p>
+        <p>7.<a href="https://vk.com/doc414794633_551628865?hash=43ee56f2910888632c&dl=7dd7eccd0f350a336e" target="_blank">Present Perfect</a></p>
+        <p>8.<a href="https://vk.com/doc414794633_551628900?hash=d3e26895409134828a&dl=9ed00b336a88d5f4c3" target="_blank">Inseparable phrasal verbs</a></p>
+        <p>9.<a href="https://vk.com/doc414794633_551628899?hash=fb6446b0ed859d128b&dl=3b2de67d3d37803125" target="_blank">Сущетсвительные и Артикли</a></p>
+        <p>10.<a href="https://vk.com/doc414794633_551628898?hash=19376331c251ef2c69&dl=2a709ac716a2f04310" target="_blank">Пассивный залог</a></p>
+        <p>11.<a href="https://vk.com/doc414794633_551628897?hash=f24a797407a4665e47&dl=4134cc8a556a81ef72" target="_blank">Модальные глаголы</a></p>
+        <p>12.<a href="https://vk.com/doc414794633_551628870?hash=8c0664549558a6910a&dl=62277a9ab00d2b4e1b" target="_blank">Личные местоимения и числительные </a></p>
+        <p>13.<a href="https://vk.com/doc414794633_551628868?hash=8c16829c8f9766f92f&dl=29a3ce7477a76130a0" target="_blank">Инфинитив и Герундий </a></p>
+        <p>14.<a href="https://vk.com/doc414794633_551628866?hash=8f18e323980a9046f9&dl=3abbb903399fd2a6d1" target="_blank">Времена в английском языке4</a></p>
+
+    </div>
+<!--Запрет наплывания-->
+  <div class="clear"></div>
+  <!--Подвал-->
+    <div id="footer">
+      <p align="center" style="color:#000000; font-size:15px"> Копирайта нет. Все для людей. ©2020</p>
+<p></p>
+<p></p>
+    </div>
+  </div>
+</body>
