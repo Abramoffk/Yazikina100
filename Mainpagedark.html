@@ -1,0 +1,149 @@
+3<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Yaziki4ege</title>
+<style>
+  body {
+    background: #c7b39b url(https://sun9-33.userapi.com/c857228/v857228232/18572b/CFKmf7gEi3g.jpg); /* Цвет фона и путь к файлу */
+    color: #; /* Цвет текста */
+   }
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; /* Меняется ширина страницы */
+  margin: 0 auto;
+  background: #708090; /* Меняется задний фон страницы */
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  height: 120px; /* Высота шапки */
+  background-color: #A9A9A9; /* Фон шапки */
+   margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+img{ /* Фоновая картинка в шапке */
+float: left; /* Разрешаем наплывание других элементов на картинку */
+  margin: -40px 0 0 0;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+  margin:0 0 10px 40px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#fff; /* Цвет заголовка */
+}
+.nomer{ /*Подзаголовок (номер телефона)*/
+  position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
+  top:5px; /* Двигается вверх-вниз */
+  left:680px; /* Двигается вправо-влево */
+  font-size: 25px; /* Размер букв подзаголовка */
+  font-style:italic; /* Курсив */
+  font-weight:bold; /* Жирный */
+  color:#464451; /* Цвет букв подзаголовка */
+}
+
+/* Сайдбар (колонка справа) */
+
+#sidebar{ /* Блок сайдбара */
+  background-color: #A9A9A9; /* Фон блока */
+  width: 180px; /* Ширина блока */
+  padding: 10px; /* Отступ текста от краёв */
+  float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; /* Размещаем слева от текста */
+  margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: 2px; /* Отступ блока статьи от блока подвала */
+  width: 676px; /* Ширина статьи */
+  padding: 10px; /* Отступ текста от краёв блока */
+  background: #A9A9A9; /* Фон статьи */
+  <!-- border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+/* Подвал */
+
+#footer{ /* Блок подвала */
+  height:20px; /* Высота блока подвала */
+  background-color: #A9A9A9; /* Фон блока подвала */
+  margin-bottom: 10px; /* Отступ снизу */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+      <h1>eng/rus4ege.ru</h1>
+<!--Фоновая картинка в шапке сайта-->
+    <a href="Mainpage.html"><img src= "https://sun9-69.userapi.com/c858532/v858532928/18640e/ve1qGS6SijM.jpg" width="900" height="100"> <a>
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>Навигация:</h3>
+<!--Картинки маркеров меню (галочки)-->
+        <p><img class="marcer" src="https://emojio.ru/images/apple-b/1f1ec-1f1e7.png" width="10" height="10"><a href="Eng.html">Английский язык<a></p>
+        <p><img class="marcer" src="https://emojio.ru/images/apple-b/1f1f7-1f1fa.png" width="10" height="10"><a href="Russki.html">Русский язык <a></p>
+        <p><img class="marcer" src="https://vk.com/emoji/e/f09f92af_2x.png" width="10" height="10"><a href="testyourself 2.html">Протестируй себя ENG<a></p>
+        <p><img class="marcer" src="https://vk.com/emoji/e/f09f92af_2x.png" width="10" height="10"><a href="testyourself 1.html">Протестируй себя RUS<a> </p>
+<!--Прямая синяя линия-->
+          <hr width="100" color="#000000" size="4">
+         <h4>Теория по Python:</h4>
+        <p><img class="marcer" src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/man-technologist-light-skin-tone.png" width="10" height="10"><a href="Python.html">Python <a></p>
+        <hr width="100" color="#000000" size="4">
+
+<!--Общая информация в сайдбаре-->
+      <h3>Mail по вопросам :</h3>
+      <p><a href="https://mail.yandex.ru/" target="_blank"> yazykina5@yandex.ru </a></p>
+      <p><img class="marcer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBsDKyFlyTHqhJDpn3QL3lkQX4q9MVZ_Qy8D2nFsVhK5is3AFd&usqp=CAU" width="10" height="10"><a href="Mainpagedark.html">Тёмная тема <a></p>
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+<!--Картинка слева-->
+        <a href = "https://www.labirint.ru/books/717785/point/gm/?point=gg19&gclid=Cj0KCQjw17n1BRDEARIsAFDHFey_U0ibGVTt_HbFBk_fj9JMLGBn-YSYAimFswIXRR32If9J-Ue4VwoaAgruEALw_wcB" target="_blank"><img class="left" src="https://sun9-4.userapi.com/c857632/v857632557/1e9809/QYyBPex9-8Q.jpg" width="150" height="180"> </a>
+<!--Заголовок статьи-->
+        <h3 style="font-family: Tahoma, monospace">О нашем проекте: </h3>
+<!--Текст статьи-->
+<p style="font-family: Tahoma, monospace">Привет! Мы ученики 10 класса и в следующем году у нас выпускные экзамены ЕГЭ.</p>
+<p style="font-family: Tahoma, monospace">Чтобы легко сдать экзамены по русскому и английскому языку надо знать
+свод правил и уметь легко их применять в своей речи и письме, однако на нашей практике,
+    нет ни одного хорошего сайта со всеми правилами, которые будут поставлены чётко и без лишних слов.
+</p>
+<p style="font-family: Tahoma, monospace">Поэтому мы решили сделать свой. В блоке справа ты можешь найти правила английского и русского языка,которых будет достаточно
+    для подготовки к ЕГЭ!</p>
+            <!--Картинка справа-->
+     <a href="https://www.labirint.ru/books/717804/point/gm/?point=gg19&gclid=Cj0KCQjw17n1BRDEARIsAFDHFewD7SgF80_jEW0-tV-_RhCoYP8ksGAG7EJWjx4SixQ79IPZezCGEQIaApUZEALw_wcB" target="_blank"><img class="right" src="https://sun9-70.userapi.com/c857632/v857632557/1e9813/LhDaBH4w5As.jpg" width="150" height="180"></a>
+<p style="font-family: Tahoma, monospace">После прочтения правил ты можешь потренировать каждое задание с помощью ссылки на соотвествующий тест в Google форме.</p>
+<p style="font-family: Tahoma, monospace">Мы надемся, что наш сайт поможет учителям быстрее находить нужный материал для подготовки учеников к ЕГЭ, а так же и
+    самим ученикам, которые хотят подтянуть свой уровень знаний или просто подглядеть какие-нибудь правила, если забыли :)
+</p>
+<p style="font-family: Tahoma, monospace">Мы всегда рады любой критике и готовы услышать пожелания или идеи, как улучшить наш сайт. Все вопросы на почту, которвя укзана в блоке "Mail по вопросам".</p>
+    </div>
+<!--Запрет наплывания-->
+ 
+  <!--Подвал-->
+    <div id="footer">
+      <p style="font-family: Tahoma, monospace" align="center" style="color:#000000; font-size:15px">
+Копирайта нет. Все для людей. ©2020</p>
+
+
+<p></p>
+<p></p>
+
+  </div>
+</body>
+</html>
